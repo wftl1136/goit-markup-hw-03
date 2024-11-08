@@ -10,6 +10,12 @@
     align-items: center;
 }
 
+.main-container {
+    align-items: center;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
 
 .nav-header {
     display: flex;
@@ -140,8 +146,9 @@ color: #f4f4fd;
     letter-spacing: 0.02em;
     color: #ffffff;
     max-width: 496px;
-    padding-bottom: 40px;
     margin: 0 auto;
+    margin-bottom: 48px;
+
 
 }
 
@@ -162,7 +169,6 @@ color: #f4f4fd;
     background-color:  #4d5ae5;
     border-radius: 4px;
     margin: 0 auto;
-    
     
 }
 
