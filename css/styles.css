@@ -2,11 +2,10 @@
     border-bottom: 1px solid #e7e9fc;
 }
 
-.conteiner {
+.container {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-    container-name: conteiner;
     display: flex;
     align-items: center;
 }
