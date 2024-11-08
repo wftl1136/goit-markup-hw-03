@@ -208,7 +208,7 @@ color: #f4f4fd;
 }
 
 .privilege-item {
-    flex-basis: calc((100% - 72px) / 4);
+    width: calc((100% - 72px) / 4);
     
 }
 .privilege_header {
