@@ -7,13 +7,11 @@
     margin: 0 auto;
     padding: 0 15px;
     container-name: conteiner;
-}
-
-.conteiner {
     display: flex;
     align-items: center;
-
 }
+
+
 .nav-header {
     display: flex;
     align-items: center;
@@ -50,6 +48,13 @@ body {
 .clicker:focus{
     background-color: #404BBF;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
 p{
     
         font-weight: 400;
@@ -67,6 +72,7 @@ color: #404bbf
 }
 .address{
     font-style: normal;
+    margin-left: auto;
 }
 
 .logo{
@@ -99,10 +105,16 @@ color: #f4f4fd;
         color: #2e2f42;
         padding: 24px 0;
 }
+
+
+
 .address-list {
     display: flex;
     gap: 40px;
+    
 }
+
+
 .header-contacts{
     
         font-weight: 400;
@@ -126,6 +138,7 @@ color: #f4f4fd;
     color: #ffffff;
     max-width: 496px;
     margin: 0 auto;
+    padding-bottom: 40px;
 }
 
 
@@ -162,10 +175,13 @@ color: #f4f4fd;
     letter-spacing: 0.02em;
     color:  #2e2f42; 
     margin:0 auto;
+    margin-bottom: 8px;
+    
 }
 .privileges-list {
     display: flex;
     gap: 24px;
+    
 }
 .privilege-item {
     width: calc((100% - 72px) / 4);
