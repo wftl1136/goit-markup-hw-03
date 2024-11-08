@@ -140,8 +140,9 @@ color: #f4f4fd;
     letter-spacing: 0.02em;
     color: #ffffff;
     max-width: 496px;
-    margin: 0 auto;
     padding-bottom: 40px;
+    margin: 0 auto;
+
 }
 
 
@@ -161,6 +162,7 @@ color: #f4f4fd;
     background-color:  #4d5ae5;
     border-radius: 4px;
     margin: 0 auto;
+    
     
 }
 
@@ -199,8 +201,8 @@ color: #f4f4fd;
     gap: 24px;
 }
 
-.privileges-item {
-    flex-basis: calc((100% - 3 * 24px) / 4)
+.privilege-item {
+    width: calc((100% - 3 * 24px) / 4)
     
 }
 .privilege_header {
@@ -338,14 +340,10 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    text-decoration: none;
-    margin-bottom: 16px;
-    
+    display: inline-block;
+    margin-bottom: 16px;  
 }
 
-.display{
-    display: inline-block;
-}
 .footer_logo_span {
     color: #f4f4fd;
     
