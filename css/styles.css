@@ -204,7 +204,7 @@ color: #f4f4fd;
     gap: 24px;
 }
 
-.privilege-item {
+.privilege_item {
     width: calc((100% - 72px) / 4);
     
 }
