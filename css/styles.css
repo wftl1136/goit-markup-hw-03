@@ -199,7 +199,7 @@ color: #f4f4fd;
     gap: 24px;
 }
 
-.privilege-item {
+.privileges-item {
     flex-basis: calc((100% - 3 * 24px) / 4)
     
 }
@@ -344,7 +344,7 @@ body {
 
 .footer_logo_span {
     color: #f4f4fd;
-    display: inline-block;
+    
 }
 
 .footer_description {
