@@ -150,6 +150,9 @@ color: #f4f4fd;
 .main_button:focus {
     background-color: #404bbf;
 }
+.custom-section {
+    padding: 120px 0;
+}
 .custom_header {
     font-weight: 500;
     font-size: 20px;
@@ -157,12 +160,20 @@ color: #f4f4fd;
     letter-spacing: 0.02em;
     color:  #2e2f42; 
 }
+.privileges-list {
+    display: flex;
+    gap: 24px;
+}
+.privilege-item {
+    width: calc((100% - 72px)/ 4);
+}
 .privilege_header {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color:  #2e2f42; 
+    margin-bottom: 8px;
 }
 .privilege_description {
     line-height: 1.5;
