@@ -271,8 +271,9 @@ body {
 
 }
 
-.portfolio-section {
-    padding-top: 120px; padding-bottom: 120px;
+.portolio-section {
+    padding-top: 120px; 
+    padding-bottom: 120px;
 }
 .portfolio-list {
     display: flex;
@@ -282,9 +283,7 @@ body {
     
 }
 .portfolio-li {
-    border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px;
-    flex-basis: calc((100% - 72px) / 3);
+    width: calc((100% - 48px) / 3);
 }
 
 
