@@ -196,7 +196,7 @@ color: #f4f4fd;
 }
 
 .privilege-item {
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4)
     
 }
 .privilege_header {
@@ -229,7 +229,7 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
-    margin-bottom: 72px;
+    
 }
 
 .team-header {
