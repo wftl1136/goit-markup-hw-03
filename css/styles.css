@@ -341,6 +341,9 @@ body {
     
 }
 
+.display{
+    display: inline-block;
+}
 .footer_logo_span {
     color: #f4f4fd;
     
@@ -351,5 +354,4 @@ body {
     color: var(--footer-text-color, #F4F4FD);
     letter-spacing: 0.02em;
     max-width: 264px;
-    display: inline-block;
 }
