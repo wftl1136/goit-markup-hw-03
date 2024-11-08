@@ -1,3 +1,24 @@
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.conteiner {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+
+.div-header {
+    display: flex;
+    align-items: center;
+
+}
+.nav-header {
+    display: flex;
+
+}
+
 ul {
     list-style: none;
 }
@@ -55,12 +76,17 @@ color: #404bbf
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+        margin-right: 76px;
 }
 .dark{
     color: #2e2f42;
 }
 .light{
 color: #f4f4fd;
+}
+.header-list {
+    display: flex;
+    gap: 40px;
 }
 .header-items{
    
@@ -70,6 +96,11 @@ color: #f4f4fd;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        padding: 24px 0;
+}
+.address-list {
+    display: flex;
+    gap: 40px;
 }
 .header-contacts{
     
