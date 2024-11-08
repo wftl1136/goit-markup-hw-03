@@ -6,7 +6,7 @@
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-
+    container-name: conteiner;
 }
 
 .div-header {
@@ -16,6 +16,7 @@
 }
 .nav-header {
     display: flex;
+    align-items: center;
 
 }
 
@@ -115,6 +116,7 @@ color: #f4f4fd;
     background-color: #2e2f42;
     text-align: center;
     font-family: "Roboto", sans-serif;
+    padding: 188px 0;
 }
 
 .main_title {
@@ -122,6 +124,7 @@ color: #f4f4fd;
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #ffffff;
+    max-width: 496px;
 }
 
 
@@ -134,6 +137,13 @@ color: #f4f4fd;
     letter-spacing: 0.04em;
     cursor: pointer;
     font-family: "Roboto", sans-serif;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color:  #4d5ae5;
+    border-radius: 4px;
+    
 }
 
 .main_button:hover,
