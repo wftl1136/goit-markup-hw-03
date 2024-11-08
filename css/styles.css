@@ -260,7 +260,7 @@ body {
     background-color: #FFFFFF;
     border-radius: 0 0 4px 4px;
     padding: 0px 0px 32px 0px;
-    flex-basis: calc((100% - 72px) / 4);
+    width: calc((100% - 72px) / 4);
 }
 .li-div {
     padding: 32px 0;
@@ -297,7 +297,7 @@ body {
     
 }
 .portfolio-li {
-    flex-basis: calc((100% - 72px) / 4);
+    width: calc((100% - 48px) / 3);
 }
 
 
