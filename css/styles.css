@@ -208,7 +208,7 @@ color: #f4f4fd;
 }
 
 .privilege-item {
-    width: calc((100% - 3 * 24px) / 4)
+    flex-basis: calc((100% - 72px) / 4);
     
 }
 .privilege_header {
@@ -297,7 +297,7 @@ body {
     
 }
 .portfolio-li {
-    width: calc((100% - 48px) / 3);
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 
