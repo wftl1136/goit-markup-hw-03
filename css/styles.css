@@ -2,19 +2,14 @@
     border-bottom: 1px solid #e7e9fc;
 }
 
-.header-container {
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
-    display: flex;
-    align-items: center;
-}
+
 
 .container {
     align-items: center;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
+    display: flex;
 }
 
 .nav-header {
